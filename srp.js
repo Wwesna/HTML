@@ -1,5 +1,4 @@
 $(document).ready(function(){
-   $("#el1").draggable();
+   $("#sort1").selectable();
   
-   $("#el1").resizable();
 });

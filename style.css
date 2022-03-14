@@ -1,8 +1,35 @@
-#el1{
-	width: 100px;
-	height: 150px;
-	border: 1px solid red;
-
-
-
+#sort1 .ui-selecting
+{
+background:red;
+border-style:solid; 
+border-width:1px;
+}
+#sort1 .ui-selecting
+{
+background:red;
+border-style:solid; 
+border-width:1px;
+}
+#sort1 .ui-selected 
+{
+font-weight:bold;
+font-size:1.1em;
+border-style:solid; 
+border-width:1px;
+background: blue; 
+}
+#sort1
+{
+list-style-type:none; 
+margin:0; 
+padding:0; 
+width:45%; 
+}
+#sort1 li 
+{ 
+margin:2px;
+padding: 0.4em; 
+border-style:solid; 
+border-width:1px;
+height: 18px; 
 }
