@@ -1,6 +1,5 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
-   $("#sd1").slider();
-   $("#pb1"). progressbar({value:75});
+   $("#tabs").tabs();
 
 });
