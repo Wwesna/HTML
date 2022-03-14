@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
-   $("#tabs").tabs();
-
+   $("#el1").draggable();
+  
+   $("#el1").resizable();
 });
