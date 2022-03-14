@@ -1,14 +1,21 @@
 $(document).ready(function() {
-   $("#but1").click(function(){
-      $("#container1").effect("bounce",{},1000 );
-	  $("#container2").effect("pulsate",{},1000 );
+   $("#but4").click(function(){
+      $("#square").animate({
+         backgroundColor:'#ff0000',
+         width:3,},1500);
    });
-   $("#but2").click(function(){
-      $("#container1").effect("explode",{},1000 );
-	  $("#container2").hide("puff",{},1000 );
+   $("#but5").click(function(){
+          $("#square").animate({
+         backgroundColor:'#8b4513',
+         width:90
+        },1500);
    });
-    $("#but3").click(function(){
-      $("#container1").show("slide",{},1000 );
-	  $("#container2").show("drop",{},1000 );
+    $("#but6").click(function(){
+           $("#square").animate({
+             borderColor:'black',
+             color:'black',
+         backgroundColor:'  #808080',
+         width:90
+         },1500);
    });
 });
