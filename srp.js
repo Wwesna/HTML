@@ -1,4 +1,6 @@
-$(document).ready(function() {
-   $("#el1,#el2,#el3").button();
-   $("#group1,#group2").buttonset();
+$(document).ready(function(){
+
+   $("#sd1").slider();
+   $("#pb1"). progressbar({value:75});
+
 });
