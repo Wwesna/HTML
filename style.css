@@ -1,35 +1,60 @@
-#sort1 .ui-selecting
-{
-background:red;
-border-style:solid; 
-border-width:1px;
+#head {
+text-align:center;
+color:white;
+border-style:solid;
+border-color:#049797;
+background-color:#049797;
 }
-#sort1 .ui-selecting
-{
-background:red;
-border-style:solid; 
-border-width:1px;
+#cont {
+padding:8px;
 }
-#sort1 .ui-selected 
-{
-font-weight:bold;
-font-size:1.1em;
-border-style:solid; 
-border-width:1px;
-background: blue; 
+#el2 {
+position:absolute;
+top:0px;
+left:0px;
+border: 1px solid black;
+z-index: 2;
 }
-#sort1
-{
+#el3 {
+border: 1px solid black;
+position:absolute;
+top:0px;
+left:400px;
+z-index: 2;
+}
+#drop1 {
+border:1px solid;
+position:absolute;
+top:270px;
+left:0px;
+height:180px;
+width:200px;
+text-align:center;
+font-size:25px;
+}
+#drop2 {
+border:1px solid;
+position:absolute;
+top:270px;
+left:260px;
+height:180px;
+width:200px;
+text-align:center;
+font-size:25px;
+}
+#sort1 {
 list-style-type:none; 
 margin:0; 
 padding:0; 
-width:45%; 
+width:40%; 
 }
-#sort1 li 
-{ 
+#sort1 li { 
 margin:2px;
 padding: 0.4em; 
 border-style:solid; 
 border-width:1px;
-height: 18px; 
+height:18px; 
+}
+#wrap1 {
+position:relative;
 }
