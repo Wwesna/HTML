@@ -1,23 +1,14 @@
 $(document).ready(function() {
-   $("#descr1").dialog({width:200,height:300,autoOpen:false});
-    $("#descr2").dialog({modal:true,autoOpen:false});
-   $("#descr3").dialog({autoOpen:false,buttons:{
-      OK:function(){
-         $(this).dialog("close");},
-      Отмена:function(){
-         $(this).dialog("close");}}
+   $("#but1").click(function(){
+      $("#container1").effect("bounce",{},1000 );
+	  $("#container2").effect("pulsate",{},1000 );
    });
-
-   $("#but3").click(function(){
-      $("#descr3").dialog("open"); 
-
+   $("#but2").click(function(){
+      $("#container1").effect("explode",{},1000 );
+	  $("#container2").hide("puff",{},1000 );
    });
-      $("#but2").click(function(){
-      $("#descr2").dialog("open"); 
-      
-   });
-         $("#but1").click(function(){
-      $("#descr1").dialog("open"); 
-      
+    $("#but3").click(function(){
+      $("#container1").show("slide",{},1000 );
+	  $("#container2").show("drop",{},1000 );
    });
 });

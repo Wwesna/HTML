@@ -1,6 +1,57 @@
-#sd1
+#container1
 {
-font-size:0.9em;
+margin:6px 20px 6px 0px;
+font-size:0.7em;
+padding:7px;
+width:150px;
+height:100px;
+border:1px solid grey;
+overflow:hidden;
+float:left;
+}
+#container1 h2
+{
+margin:0px 0px 13px 0px;
+}
+#container1 p
+{
+margin:0px;
+}
+.ui-widget-header
+{
+text-align:center;
+}
+#container2
+{
 margin:6px;
-width:90%;
+font-size:0.7em;
+padding:7px;
+width:150px;
+height:100px;
+border: 1px solid grey;
+overflow:hidden;
+}
+#container2 h2
+{
+margin:0px 0px 13px 0px;
+}
+#container2 p
+{
+margin:0px;
+}
+.ui-widget-header
+{
+text-align:center;
+}
+#but1
+{
+clear:both;
+}
+#square
+{
+margin:0px 0px 0px 30px;
+border:1px solid black;
+width:90px;
+height:70px;
+padding:20px 10px 10px 10px;
 }
